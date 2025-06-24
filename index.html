@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADIWIYATA MAN 2 JEMBER - Dokumentasi Kegiatan</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-circle">
+                        <span>MAN 2</span>
+                        <span>JEMBER</span>
+                    </div>
+                </div>
+                <nav class="nav">
+                    <a href="#home">Beranda</a>
+                    <a href="#program">Program</a>
+                    <a href="#galeri">Galeri</a>
+                    <a href="#kontak">Kontak</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">ADIWIYATA MAN 2 JEMBER</h1>
+                    <p class="hero-subtitle">Dokumentasi Kegiatan</p>
+                    <p class="hero-description">
+                        Selamat datang di portal dokumentasi kegiatan Adiwiyata MAN 2 Jember. 
+                        Kami berkomitmen untuk menciptakan lingkungan sekolah yang hijau, bersih, 
+                        dan berkelanjutan melalui berbagai program dan kegiatan yang melibatkan 
+                        seluruh warga sekolah.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#program" class="btn btn-primary">Jelajahi Program</a>
+                        <a href="#galeri" class="btn btn-secondary">Lihat Galeri</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agenda Section -->
+    <section class="agenda-section">
+        <div class="container">
+            <div class="agenda-dropdown">
+                <div class="dropdown-header" onclick="toggleDropdown()">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Agenda Bulanan</span>
+                    <i class="fas fa-chevron-down dropdown-arrow"></i>
+                </div>
+                <div class="dropdown-content" id="agendaContent">
+                    <div class="agenda-item">
+                        <i class="fas fa-leaf"></i>
+                        <span>Penanaman Pohon - 15 Juni 2025</span>
+                    </div>
+                    <div class="agenda-item">
+                        <i class="fas fa-recycle"></i>
+                        <span>Workshop Daur Ulang - 22 Juni 2025</span>
+                    </div>
+                    <div class="agenda-item">
+                        <i class="fas fa-water"></i>
+                        <span>Pembersihan Drainase - 30 Juni 2025</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Section -->
+    <section id="program" class="program-section">
+        <div class="container">
+            <h2 class="section-title">Program Utama</h2>
+            <div class="program-list">
+                <div class="program-item" style="background: linear-gradient(135deg, #4CAF50, #45a049);">
+                    <div class="program-icon">
+                        <i class="fas fa-folder"></i>
+                    </div>
+                    <span class="program-text">1. Administrasi</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 85%;"></div>
+                    </div>
+                </div>
+
+                <div class="program-item" style="background: linear-gradient(135deg, #673AB7, #5e35b1);">
+                    <div class="program-icon">
+                        <i class="fas fa-edit"></i>
+                    </div>
+                    <span class="program-text">2. Rencana Aksi LH dan Kajian LH</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 70%;"></div>
+                    </div>
+                </div>
+
+                <div class="program-item" style="background: linear-gradient(135deg, #2196F3, #1976d2);">
+                    <div class="program-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <span class="program-text">3. Dokumen 1 KTSP</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 90%;"></div>
+                    </div>
+                </div>
+
+                <div class="program-item" style="background: linear-gradient(135deg, #00BCD4, #0097a7);">
+                    <div class="program-icon">
+                        <i class="fas fa-clipboard-list"></i>
+                    </div>
+                    <span class="program-text">4. RPP</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 75%;"></div>
+                    </div>
+                </div>
+
+                <div class="program-item" style="background: linear-gradient(135deg, #8BC34A, #689f38);">
+                    <div class="program-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <span class="program-text">5. Kebersihan Sanitasi Drainase</span>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Tentang Program Adiwiyata</h2>
+                    <p>
+                        Program Adiwiyata adalah program pendidikan lingkungan hidup yang bertujuan 
+                        untuk menciptakan kondisi yang baik bagi sekolah untuk menjadi tempat pembelajaran 
+                        dan penyadaran warga sekolah, sehingga di kemudian hari warga sekolah tersebut 
+                        dapat turut bertanggung jawab dalam upaya-upaya penyelamatan lingkungan hidup 
+                        dan pembangunan berkelanjutan.
+                    </p>
+                    <div class="features">
+                        <div class="feature">
+                            <i class="fas fa-seedling"></i>
+                            <h3>Lingkungan Hijau</h3>
+                            <p>Menciptakan lingkungan sekolah yang asri dan hijau</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-recycle"></i>
+                            <h3>Pengelolaan Sampah</h3>
+                            <p>Sistem pengelolaan sampah yang berkelanjutan</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-graduation-cap"></i>
+                            <h3>Pendidikan Lingkungan</h3>
+                            <p>Integrasi pendidikan lingkungan dalam kurikulum</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="icon_environment_education.png" alt="Environment Education">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeri" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title">Galeri Kegiatan</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-leaf"></i>
+                        <p>Penanaman Pohon</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-recycle"></i>
+                        <p>Daur Ulang</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-broom"></i>
+                        <p>Kebersihan Lingkungan</p>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <div class="gallery-placeholder">
+                        <i class="fas fa-water"></i>
+                        <p>Konservasi Air</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontak" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>MAN 2 Jember</h3>
+                    <p>Madrasah Aliyah Negeri 2 Jember</p>
+                    <p>Program Adiwiyata</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontak</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Pendidikan No. 123, Jember</p>
+                    <p><i class="fas fa-phone"></i> (0331) 123456</p>
+                    <p><i class="fas fa-envelope"></i> info@man2jember.sch.id</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Media Sosial</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 MAN 2 Jember. Semua hak dilindungi.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
